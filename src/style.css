@@ -560,6 +560,102 @@ footer {
         min-height: 100vh; 
         padding: 60px 20px;
     }
+     .header__container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .nav_list {
+    gap: 15px;
+  }
+
+  .hero_title {
+    font-size: 2.5rem;
+  }
+
+  .hero_subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero_avatar {
+    width: 140px;
+    height: 140px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .contacts_links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts_item {
+    width: 80%;
+    text-align: center;
+  }
 }
 
+
+@media (max-width: 480px) {
+  .header {
+    padding: 10px 0;
+  }
+  
+  .logo {
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav__list {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav__link {
+    font-size: 0.9rem;
+  }
+
+  .section {
+    padding: 40px 15px;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .section__title {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .flip-card {
+    height: 110px;
+  }
+  
+  .flip-card__front {
+    font-size: 0.9rem;
+  }
+
+  .flip-card__back {
+    font-size: 2.5rem;
+  }
+
+  .btn,
+  .btn_accent {
+    padding: 10px 25px;
+    font-size: 0.9rem;
+  }
+}
 
